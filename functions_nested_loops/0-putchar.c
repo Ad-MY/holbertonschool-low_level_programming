@@ -1,20 +1,20 @@
-#include "main.h"
-
+#include <main.h>
 /**
- * main - Entry point
+ * main - print _putchar followed by a new line
  *
- * Return: Always 0 (Success)
+ * Return: 0 Always (Success)
+ *
  */
 int main(void)
 {
-	char word[8] = "_putchar";
-	int letter_index = 0;
+	char *word = "_putchar";
 
-	while (letter_index < 8)
+	while (*word)
 	{
-		_putchar(word[letter_index]);
-		letter_index++;
+		_putchar(*word);
+		word++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
