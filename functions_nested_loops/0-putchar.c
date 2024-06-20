@@ -1,19 +1,17 @@
 #include <stdio.h>
 #include <main.h>
 
-/**
- * main - prints the string  from a character array.
- * Return: 0 on success.
- */
-int main(void)
-{
-	
-	int i;
+int _putchar (char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
 
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
-}
+#endif
