@@ -6,20 +6,20 @@
  *
  * Return: return -1 if r is negative and 1 if r is positive
  */
-int print_last_digit(int);
+int print_last_digit(int r)
 {
-	int 1;
+	int l;
 
-	1 = r % 107;
-	if (1 < 0)
+	l = r % 10;
+	if (l < 0)
 	{
-		_putchar(-1 + '0');
-		return (-1);
+		_putchar(-l + '0');
+		return (-l);
 	}
 	else
 	{
-		_putchar(1 + '0');
-		return (1);
+		_putchar(l + '0');
+		return (l);
 	}
 }
 
