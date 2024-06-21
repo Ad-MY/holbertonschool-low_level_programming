@@ -2,11 +2,11 @@
 /**
  * _islower - Entry point
  *
- * @c: a  function that checks if parameter c is lowercase
+ * @c: a function that checks if parameter c is lowercase
  *
- * Return 1 if c is islower, 0 if otherwise *
+ * Return: 1 if c is lower, 0 if otherwise
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
