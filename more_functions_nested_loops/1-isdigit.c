@@ -2,17 +2,17 @@
 /**
  * _isdigit - check for digits
  *
- * @c: check if c is a digit
+ * @c: checks if c is a digit
  *
  * Return: 1 if c is a digit, 0 if otherwise
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
-else
+	else
 	{
 		return (0);
 	}
