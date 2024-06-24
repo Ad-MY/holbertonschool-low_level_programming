@@ -1,21 +1,14 @@
 #include "main.h"
 /**
- * print_line - printa line
- *
- * @n: print n number of _
- *
- * Return: none
- */
+*print_line - prints a straight line
+*@n:parameter
+*Return:returns nothing
+*/
 void print_line(int n)
 {
-	int i;
-
-	if (n > 0)
-	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar('_');
-		}
-		_putchar('\n');
-	}
+while (n-- > 0)
+{
+_putchar('_');
+}
+_putchar('\n');
 }
